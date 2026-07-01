@@ -33,9 +33,10 @@ withDefaults(
         class="flex items-center justify-center"
         style="width: 44px; height: 44px; border-radius: 12px; background-color: #0a0a0a; border: 1px solid rgba(255,255,255,0.14);"
       >
-        <div
-          style="width: 26px; height: 26px; border-radius: 6px; background-image: linear-gradient(135deg, #999999, #222222);"
-        />
+        <div class="flex" style="width: 26px; height: 26px; border-radius: 6px; overflow: hidden;">
+          <div style="width: 13px; height: 26px; background-image: linear-gradient(160deg, #f4b183, #c96e4e 55%, #3a4a6b);" />
+          <div style="width: 13px; height: 26px; background-image: linear-gradient(160deg, #cfcfcf, #2a2a2a);" />
+        </div>
       </div>
       <div
         style="font-family: Inter; font-size: 20px; font-weight: 500; letter-spacing: 0.28em; color: rgba(255,255,255,0.9);"

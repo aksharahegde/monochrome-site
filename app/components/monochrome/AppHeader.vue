@@ -8,9 +8,9 @@
       >
         <div class="size-8 overflow-hidden rounded-lg border border-white/10 lg:size-9">
           <img
-            src="/images/hero.jpg"
+            src="/favicon.svg"
             alt=""
-            class="size-full scale-150 object-cover blur-[2px] saturate-150"
+            class="size-full object-cover"
           >
         </div>
         <span class="font-sans text-[11px] font-medium tracking-ultra text-white/90 transition group-hover:text-white">
