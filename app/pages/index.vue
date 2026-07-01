@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Monochrome — AI Powered Photo Conversion',
+  title: 'AI Powered Photo Conversion',
   description:
     'AI analyzes your photo and reveals its truest monochrome expression. Transform color photographs into timeless black and white masterpieces.',
   ogTitle: 'Monochrome — AI Powered Photo Conversion',
@@ -8,6 +8,16 @@ useSeoMeta({
     'AI analyzes your photo and reveals its truest monochrome expression.',
   ogType: 'website',
   twitterCard: 'summary_large_image',
+  twitterTitle: 'Monochrome — AI Powered Photo Conversion',
+  twitterDescription:
+    'AI analyzes your photo and reveals its truest monochrome expression.',
+})
+
+defineOgImage('Monochrome', {
+  title: 'Monochrome',
+  emphasis: 'by intelligence.',
+  description:
+    'AI analyzes your photo and reveals its truest monochrome expression.',
 })
 
 useSchemaOrg([
@@ -20,6 +30,11 @@ useSchemaOrg([
     name: 'Monochrome — AI Powered Photo Conversion',
     description:
       'AI analyzes your photo and reveals its truest monochrome expression.',
+  }),
+  defineOrganization({
+    name: 'Monochrome',
+    logo: '/favicon.svg',
+    sameAs: ['https://www.glaze.app/app/monochrome-pVnMBs'],
   }),
   defineSoftwareApp({
     name: 'Monochrome',

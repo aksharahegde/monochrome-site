@@ -59,9 +59,11 @@ function onKeyDown(event: KeyboardEvent) {
   >
     <img
       :src="colorSrc"
-      alt="Color photograph of mountains reflected in a lake at sunset"
+      alt="Color photograph of snow-capped mountain peaks rising above a sea of clouds at sunset"
       class="absolute inset-0 size-full object-cover"
       draggable="false"
+      fetchpriority="high"
+      decoding="async"
     >
 
     <div
@@ -70,9 +72,10 @@ function onKeyDown(event: KeyboardEvent) {
     >
       <img
         :src="bwSrc"
-        alt="Monochrome version of the mountain landscape"
+        alt="Monochrome version of the same mountain landscape"
         class="absolute inset-0 size-full object-cover grayscale contrast-[1.08] brightness-[0.95]"
         draggable="false"
+        decoding="async"
       >
     </div>
 

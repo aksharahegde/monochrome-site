@@ -26,7 +26,7 @@
         </span>
         <span class="flex flex-col gap-1">
           <span class="font-sans text-[0.8125rem] text-white/88 transition group-hover:text-white lg:text-sm">
-            Download your masterpiece
+            Get from Glaze store
           </span>
           <span class="font-sans text-[11px] tracking-wide text-white/38">
             JPG · PNG

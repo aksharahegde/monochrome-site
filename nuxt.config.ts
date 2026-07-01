@@ -20,7 +20,11 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: 'en' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/png', sizes: '180x180', href: '/favicon.png' },
+        { rel: 'apple-touch-icon', href: '/favicon.png' },
+      ],
     },
   },
 
@@ -37,17 +41,24 @@ export default defineNuxtConfig({
         provider: 'google',
         weights: [400, 500, 600],
         styles: ['normal', 'italic'],
+        global: true,
       },
       {
         name: 'Inter',
         provider: 'google',
         weights: [300, 400, 500, 600],
+        global: true,
       },
     ],
   },
 
   ogImage: {
-    enabled: false,
+    enabled: true,
+    defaults: {
+      component: 'Monochrome',
+      width: 1200,
+      height: 630,
+    },
   },
 
   nitro: {

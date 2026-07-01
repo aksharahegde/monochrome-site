@@ -6,6 +6,17 @@ useSeoMeta({
   ogTitle: 'Privacy Policy · Monochrome',
   ogDescription:
     'Learn how Monochrome handles your photographs, API keys, and privacy.',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Privacy Policy · Monochrome',
+  twitterDescription:
+    'Learn how Monochrome handles your photographs, API keys, and privacy.',
+})
+
+defineOgImage('Monochrome', {
+  title: 'Privacy',
+  emphasis: 'Policy.',
+  description:
+    'How Monochrome handles your photographs, API keys, and privacy.',
 })
 
 useSchemaOrg([
