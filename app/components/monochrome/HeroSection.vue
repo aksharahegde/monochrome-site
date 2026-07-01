@@ -13,26 +13,22 @@
         </p>
       </div>
 
-      <a
-        href="https://www.glaze.app/app/monochrome-pVnMBs"
-        target="_blank"
-        rel="noopener"
-        class="group flex w-fit items-center gap-4"
-      >
-        <span class="flex size-12 shrink-0 items-center justify-center rounded-full border border-white/18 bg-white/[0.04] transition group-hover:border-white/32 group-hover:bg-white/[0.08]">
-          <svg viewBox="0 0 24 24" fill="none" class="size-[18px] text-white/82" aria-hidden="true">
-            <path d="M12 4v10M8 10l4 4 4-4M5 18h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <div class="flex flex-col gap-3">
+        <a
+          href="https://www.glaze.app/app/monochrome-pVnMBs"
+          target="_blank"
+          rel="noopener"
+          class="group inline-flex w-fit items-center gap-2.5 rounded-full bg-white px-6 py-3.5 font-sans text-[0.8125rem] font-medium text-ink-deep shadow-[0_8px_24px_rgba(255,255,255,0.08)] transition duration-200 ease-out hover:-translate-y-0.5 hover:bg-white/92 hover:shadow-[0_12px_32px_rgba(255,255,255,0.14)] active:translate-y-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 lg:px-7 lg:py-4 lg:text-sm"
+        >
+          <svg viewBox="0 0 24 24" fill="none" class="size-[18px]" aria-hidden="true">
+            <path d="M12 4v10M8 10l4 4 4-4M5 18h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
+          Get from Glaze store
+        </a>
+        <span class="font-sans text-[11px] tracking-wide text-white/38">
+          Free · JPG · PNG
         </span>
-        <span class="flex flex-col gap-1">
-          <span class="font-sans text-[0.8125rem] text-white/88 transition group-hover:text-white lg:text-sm">
-            Get from Glaze store
-          </span>
-          <span class="font-sans text-[11px] tracking-wide text-white/38">
-            JPG · PNG
-          </span>
-        </span>
-      </a>
+      </div>
     </div>
 
     <div class="flex w-full items-start justify-center lg:justify-end">
