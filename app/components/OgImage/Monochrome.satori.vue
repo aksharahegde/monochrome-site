@@ -12,6 +12,9 @@ withDefaults(
       'AI analyzes your photo and reveals its truest monochrome expression.',
   },
 )
+
+const siteConfig = useSiteConfig()
+const domain = computed(() => siteConfig.url.replace(/^https?:\/\//, ''))
 </script>
 
 <template>
@@ -72,7 +75,7 @@ withDefaults(
       <div
         style="font-family: Inter; font-weight: 400; font-size: 15px; letter-spacing: 0.05em; color: rgba(255,255,255,0.35);"
       >
-        monochrome.app
+        {{ domain }}
       </div>
     </div>
   </div>

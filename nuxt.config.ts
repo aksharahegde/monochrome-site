@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/seo', '@nuxt/fonts'],
 
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://monochrome.app',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://monochrome.akshara.dev',
     name: 'Monochrome',
     description:
       'AI analyzes your photo and reveals its truest monochrome expression.',
@@ -62,6 +62,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: 'cloudflare_pages',
     compressPublicAssets: true,
   },
 })

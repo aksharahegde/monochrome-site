@@ -11,6 +11,15 @@
         >
           Privacy Policy
         </NuxtLink>
+        <span>
+          Developed by
+          <a
+            href="https://akshara.dev"
+            target="_blank"
+            rel="noopener"
+            class="transition hover:text-white/70"
+          >Akshara Hegde</a>
+        </span>
       </nav>
     </div>
   </footer>
