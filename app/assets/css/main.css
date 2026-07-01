@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #050505;
+  --color-ink-deep: #000000;
+  --color-ink-muted: #888888;
+  --color-ink-faint: #444444;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: Inter, system-ui, sans-serif;
+
+  --tracking-ultra: 0.28em;
+  --tracking-label: 0.22em;
+
+  --animate-glow: glow 3s ease-in-out infinite alternate;
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+    }
+    100% {
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.18);
+    }
+  }
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply bg-ink-deep text-white font-sans overflow-x-hidden;
+  }
+
+  ::selection {
+    @apply bg-white/20 text-white;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .border-glow {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.12),
+      0 0 48px rgba(255, 255, 255, 0.05);
+  }
+
+  .tracking-ultra {
+    letter-spacing: var(--tracking-ultra);
+  }
+
+  .tracking-label {
+    letter-spacing: var(--tracking-label);
+  }
+}
